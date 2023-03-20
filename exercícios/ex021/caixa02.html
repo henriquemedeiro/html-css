@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(133, 171, 241);
+            margin: 0px;
+        }
+        header {
+            margin: 10px;
+            background-color: rgb(222, 196, 0);
+            padding: 5px;
+            border-radius: 15px;
+        }
+        nav {
+            background-color: #fffeb86f;
+            padding: 5px;
+            box-shadow: 2px 4px 7px rgba(0, 0, 0, 0.333);
+            border-radius: 15px;
+        }
+        a {
+            margin-right: 5px;
+            text-decoration: none;
+            color: red;
+            font-weight: bold;
+        }
+        nav > :hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: #8282829a;
+            margin: 10px;
+            padding: 5px;
+            border-radius: 10px 30px;
+            box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.39);
+        }
+        main > #pontos > article > aside > p {
+            margin: 0px;
+            background-color: #828282d7;
+            padding: 3px;
+            border-radius: 10px 50px;
+        }
+        aside {
+            text-align: center;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            padding: 3px;
+            margin: 0px;
+            text-align: center;
+        }
+        footer > p {
+            margin: 0px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+        </nav>
+    </header>
+    <main>
+        <section id="esporte">
+            <h2>Jogos</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus non ratione in at quae delectus quo repellat nihil libero. Dolore eaque, obcaecati voluptatem veniam nostrum voluptate eligendi id fugiat aut?</p>
+        </section>
+        <section id="pontos">
+            <h2>Pontos</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero minus, et debitis perspiciatis deleniti blanditiis officiis ipsum harum consectetur dolorem ullam, aut sit sapiente, nihil voluptate inventore hic in! Numquam?</p>
+            <article>
+                <h2>Sistema de pontuação</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores pariatur voluptas magnam sit perspiciatis, delectus ullam quidem, dolores corrupti consectetur provident. Ipsa rerum amet ex minima aliquid saepe distinctio unde.</p>
+                <aside>
+                    <p>Desenvolvido por HAYTRON.</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Criado por HAYTRON TEC</p>
+    </footer>
+</body>
+</html>
